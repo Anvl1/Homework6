@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <cmath>
 #include <Windows.h>
 
@@ -7,7 +7,7 @@ void printPower(int value, int power)
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	setlocale(LC_ALL, "rus");
-	std::cout << value << " â ñòåïåíè " << power << " = " << pow(value, power) << std::endl;
+	std::cout << value << " Ð² ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸ " << power << " = " << pow(value, power) << std::endl;
 }
 
 int main() 

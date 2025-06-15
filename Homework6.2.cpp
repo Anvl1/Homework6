@@ -1,8 +1,17 @@
 ﻿#include <iostream>
-#include <cmath>
 #include <Windows.h>
 
-void printPower(int value, int power) 
+int power(int value, int power)
+{
+	int result = 1;
+	for (int i = 0; i < power; i++)
+	{
+		result *= value;
+	}
+	return result;
+}
+
+void printPower(int value, int power)
 {
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
